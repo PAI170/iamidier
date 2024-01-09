@@ -58,11 +58,13 @@ main {
 .wrapper-content {
     max-width: 1620px;
     margin: 0 auto;
+}
+
+.bio-content {
     display: flex;
     align-items: center;
     padding-top: 100px;
 }
-
 /* End Body Style */
 
 /* Start biography style */
@@ -175,4 +177,82 @@ h1 p {
     border-bottom: 1px solid #9f9f9f86;
     padding-bottom: 30px;
     margin-bottom: 30PX;
+}
+
+/* Experience Section Style */
+
+.experience-content {
+
+    display: flex;
+    margin-bottom: 45px;
+    margin-top: 200px;
+}
+
+.experience-title {
+    margin-bottom: 50px;
+}
+
+.experience-items {
+    flex-grow: 10;
+}
+
+.content-title {
+    flex-grow: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.experience-title h4 {
+    color:#9f9f9f;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.experience-title h2 {
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+.experience-title span {
+    color:#e42924;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.experience-items-bg {
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.experience-items-bg h3 {
+    font-size: 24px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 15px;
+} 
+
+.experience-items-bg span {
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+    color: #9f9f9f;
+}
+
+.experience-items h4 {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 15px;
+}
+
+.experience-imtems-bg i {
+    float: left;
 }
